@@ -1,0 +1,75 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// $body-bg: #000;
+
+@import "./bootstrap-4.6.0/scss/bootstrap";
+// Add custom code after this
+
+//Include custom variables default overrides here
+$primary: #413D3C;
+$gray: #413D3C;
+$secondary:#6F7E8A;
+
+$theme-colors: (
+'primary': $primary,
+'gray': $gray,
+'secondary':$secondary,
+);
+//Create your own map
+$custom-color:(
+'icon-background': hsla(20, 1%, 55%, 0.2)
+);
+
+// Merge maps
+$theme-colors: map-merge($theme-colors, $custom-color);
+// #413D3C - color of the announcement bar
+
+//******** HEADER *********//  
+.announcement-bar{
+font-size:100%;
+// border-bottom:1px solid (--bs-gray);
+background-color:#413D3C;
+
+// that mean this class : announcement-bar__list
+&__list{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    display:inline-flex;
+    margin:0 -10px;
+    
+
+   
+
+    li{
+        margin:0 0.2rem;
+        display:flex;
+        align-items: center;
+
+        a{
+                color:#6F7E8A;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        a:hover {
+            color:#C97A42;
+             }
+
+        .bi {
+            background-color: var(--bs-icon-background);
+            display:inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            margin-right: 6px;
+           
+        }
+    }
+}
+// @include  media-breakpoint-down(lg){
+    
+// }
+}

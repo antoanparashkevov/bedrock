@@ -141,6 +141,9 @@ add_action( 'widgets_init', 'owntheme_widgets_init' );
  */
 function owntheme_scripts() {
 	wp_enqueue_style( 'owntheme-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'owntheme-main', get_template_directory_uri() . '/css/main.css' );
+	wp_enqueue_style( 'bootstrap-icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css' );
+
 	wp_style_add_data( 'owntheme-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'owntheme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
@@ -150,6 +153,20 @@ function owntheme_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'owntheme_scripts' );
+
+/**
+ * Custom Fonts
+ */
+function enqueue_custom_fonts(){
+	if(!is_admin()){
+		wp_register_style('source_sans_pro', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,600&display=swap');
+		wp_register_style('nunito', 'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,600&family=Source+Sans+Pro:ital,wght@0,300;0,700;1,200&display=swap');
+		wp_enqueue_style('source_sans_pro');
+		wp_enqueue_style('nunito');
+	}
+}
+
+add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
 
 /**
  * Implement the Custom Header feature.
