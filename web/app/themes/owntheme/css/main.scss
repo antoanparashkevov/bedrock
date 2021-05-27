@@ -44,15 +44,18 @@ $carousel-dark-control-icon-filter:  invert(1) grayscale(100);
 $primary: #413D3C;
 $gray: #413D3C;
 $secondary:#6F7E8A;
+// $danger:#A7B3AB;
 
 $theme-colors: (
 'primary': $primary,
 'gray': $gray,
-'secondary':$secondary,
+'secondary':$secondary
+// 'danger':$danger,
 );
 //Create your own map
 $custom-color:(
-'icon-background': hsla(20, 1%, 55%, 0.2)
+'icon-background': hsla(20, 1%, 55%, 0.2),
+// 'footer-background':hsl(136, 7%, 68%)
 );
 
 // Merge maps
@@ -106,10 +109,6 @@ background-color:#413D3C;
 // @include  media-breakpoint-down(lg){
     
 // }
-}
-
-.site-header__logo{
-
 }
 
 .menu__bg{
@@ -187,5 +186,28 @@ background-color: inherit;
   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
   }
+
+
   
+
+  .footer-style{
+    background-color: #A7B3AB;
+  }
+
+  .img-last {
+    border: 3px solid #413D3C;
+    border-radius: 6px;
+    width:50%; 
+    padding:5px;
+    height:50%;
+  } 
+  
+  .img-last:hover {
+    box-shadow: 0 0 6px 3px rgba(0, 140, 186, 0.5);
+  }
+
+  .btn-pen{
+    background-color: #68605E;
+    color: white;
+  }
   

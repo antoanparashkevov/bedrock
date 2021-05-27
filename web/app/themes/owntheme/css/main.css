@@ -10961,4 +10961,26 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #fff;
 }
+
+.footer-style {
+  background-color: #A7B3AB;
+}
+
+.img-last {
+  border: 3px solid #413D3C;
+  border-radius: 6px;
+  width: 50%;
+  padding: 5px;
+  height: 50%;
+}
+
+.img-last:hover {
+  -webkit-box-shadow: 0 0 6px 3px rgba(0, 140, 186, 0.5);
+          box-shadow: 0 0 6px 3px rgba(0, 140, 186, 0.5);
+}
+
+.btn-pen {
+  background-color: #68605E;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */

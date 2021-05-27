@@ -12,22 +12,67 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'owntheme' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'owntheme' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
+	
+	<div class="footer-style text-white pt-5 pb-5">
+  <div class="pt-5 pb-5">
+  <div class="container-fluid">
+	<div class="row">
+	<div class="col-12 col-lg-12 justify-content-center"><h1 class="text-center">example logo picture</h1></div>
+	</div>
+	<div class="row">
+	<div class="col-lg-12 d-flex justify-content-center">
+	<nav class="navbar navbar-expand-lg navbar-light" style="color:#A7B3AB;">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="#">Gallery <span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
+      </li>
+</div>
+</div>
 
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'owntheme' ), 'owntheme', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+    </ul>
+  </div>
+</nav>
+<div class="row">
+				   <div class="col-lg-12 d-flex justify-content-center">
+                        <ul class="announcement-bar__list">
+                            <li>
+                                <a href='https://www.linkedin.com/'> <i  class="bi bi-linkedin"></i></a>
+                            </li>
+                            <li>
+                               <a href="https://www.twitter.com/"> <i class="bi bi-twitter"></i></a>
+                                
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/"> <i class="bi bi-facebook"></i></a>
+                              
+                            </li>
+
+                        </ul>
+                    </div>
+				   </div>
+	</div>
+		
+</div>
+</div>
 	</footer><!-- #colophon -->
-</div><!-- #page -->
+
+
 
 <?php wp_footer(); ?>
 
