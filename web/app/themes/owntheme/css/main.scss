@@ -66,8 +66,8 @@ $theme-colors: map-merge($theme-colors, $custom-color);
 .announcement-bar{
 font-size:100%;
 // border-bottom:1px solid (--bs-gray);
-background-color:#413D3C;
-
+  background-color: #413D3C;
+// #413D3C;
 // that mean this class : announcement-bar__list
 &__list{
     padding:0;
@@ -209,5 +209,27 @@ background-color: inherit;
   .btn-pen{
     background-color: #68605E;
     color: white;
+  }
+
+  .back-image{
+    // background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg');
+    // height: 100vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/Parallax-img.jpg");
+    background-attachment: scroll; 
+    min-width: 1519px; 
+    left: 0px; 
+    width: 1518px; 
+    background-position: 50% 16px;
+  }
+
+  .back-image2{
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg');
+    height: auto;
+
+    //<img width="90" height="55" src="https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/flower-decor.png" class="aligncenter attachment-full" alt="flower-decor" loading="lazy">
   }
   
