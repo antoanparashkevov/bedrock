@@ -47,7 +47,7 @@ get_header();
         <!-- Second section -->
         <section class='container-fluid'>
             <div class='row'>
-                <div class='col-6 col-lg-6'>
+                <div class='col-12 col-lg-6'>
                     <div style="background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(233, 243, 225, 1)); height: 100%; width:100%;">
                         <div class="row">
                             <div class="col-12 col-lg-12 mt-5">
@@ -61,7 +61,8 @@ get_header();
                         <div class="ml-5 mt-4">
                             <div class="ml-5">
                                 <div class="row ml-5">
-                                    <div class="col-2 col-lg-2 text-center mt-2">
+                                    <div class="col-2 col-lg-2 text-center" >
+                                    
                                         <img width="47" height="47"
                                              src="https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/icon-decor-1.png"
                                              class="attachment-full" alt="icon-decor-1" loading="lazy">
@@ -136,7 +137,7 @@ get_header();
 
                     </div>
                 </div>
-                <div class='col col-lg'>
+                <div class='col-0 col-lg'>
                     <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper4.jpg"
                          style="height: 100%; width:100%;" alt="...">
                 </div>
@@ -166,10 +167,86 @@ get_header();
         </section>
 
         <!-- Fourth section -->
-        <section class="container-fluid mb-5 mt-5">
+        <section class="back-image-first container mt-5 mb-5 p-5">
+            <div class="row mt-5">
+                <div class="col-6 col-lg-6"></div>
+                <div class="col-6 col-lg-6">
+                        <h6>Just Make an Appointment & You're Done!</h6>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-6 col-lg-6"></div>
+                <div class="col-1 col-lg-1">
+                <hr class="text-secondary text-start" style="width:25px;height:3px;">
+                    </div>
+                </div>
+               
+                <div class="row">
+                <div class="col-6 col-lg-6"></div>
+                <div class="col-6 col-lg-6 mb-4">
+                        <h2>Opening Hours</h2>
+                    </div>
+                </div>
+            
+                <div class="row">
+                <div class="col-6 col-lg-6"></div>
+                <div class="col-6 col-lg-6">
+                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. <br>Sed fringilla mauris sit amet nibh.</p>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-lg-6">
+                    </div>
+                    <div class="col-lg-3">  
+                      <h3><i class="bi bi-geo-alt"></i></h3>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="row">
+                            <div class="col"><h3>Monday to Thursday</h3></div>
+                           
+                                <div class="col"><p>9:30pm to 9:30pm</p></div>
+                         
+                            
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-5">
+                    <div class="col-lg-6">
+                    </div>
+                    <div class="col-lg-3">  
+                      <h3><i class="bi bi-geo-alt"></i></h3>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="row">
+                            <div class="col-lg"><h3>Monday to Thursday</h3></div>
+                            
+                                <div class="col-lg"><p>9:30pm to 9:30pm</p></div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="btn btn-secondary p-3" style="border-radius:25px; width:40%;">Get An Appointment</div>
+                        </div>
+                    </div>
 
 
+                </div>
+                
+           
         </section>
+
+
+        
+
 
 
         <!-- Fifth section -->
@@ -552,7 +629,7 @@ get_header();
                     <div class="card p-3" style="background-color:gray;">
                         <div class="text-center mt-4">
 
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper.jpg"
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
                                  class="img-last card-img-top rounded-circle " style="" alt="...">
 
                         </div>
@@ -584,7 +661,7 @@ get_header();
                     <div class="card p-3" style="background-color:gray;">
                         <div class="text-center mt-4">
 
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper.jpg"
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
                                  class="img-last card-img-top rounded-circle " style="" alt="...">
 
                         </div>
@@ -617,7 +694,7 @@ get_header();
                     <div class="card p-3" style="background-color:gray;">
                         <div class="text-center mt-4">
 
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper.jpg"
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
                                  class="img-last card-img-top rounded-circle " style="" alt="...">
 
                         </div>
@@ -656,7 +733,7 @@ get_header();
                     <div class="card p-3" style="background-color:gray;">
                         <div class="text-center mt-4">
 
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper.jpg"
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
                                  class="img-last card-img-top rounded-circle " style="" alt="...">
 
                         </div>
@@ -689,7 +766,7 @@ get_header();
                     <div class="card p-3" style="background-color:gray;">
                         <div class="text-center mt-4">
 
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper.jpg"
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
                                  class="img-last card-img-top rounded-circle " style="" alt="...">
 
                         </div>
@@ -722,7 +799,7 @@ get_header();
                     <div class="card p-3" style="background-color:gray;">
                         <div class="text-center mt-4">
 
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper.jpg"
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
                                  class="img-last card-img-top rounded-circle " style="" alt="...">
 
                         </div>
@@ -789,22 +866,111 @@ get_header();
 
 
         <!-- Tenth section -->
+        <section class="container">
+            <div class="row mt-5">
+            <div class="col col-lg">
+            <h6 class="text-center">Check Out Our Services</h6>
+            </div>    
+            </div>
+            <div class="row">
+            <div class="col col-lg text-center">
+            <hr class="text-secondary" style="width:25px;height:3px;">
+            </div>    
+            </div>
+            <div class="row mb-5">
+            <div class="col col-lg">
+            <h6 class="text-center">Why People Choose Us</h6>
+            </div>    
+            </div>
 
+            <div class="row justify-content-center">
+                <div class="col-4 col-lg-4">
+                    <div class="row d-block">
+                        <div class="col-12 col-lg-12 mb-5">
+                            <h4>Advanced Proven Procedures</h4>
+                            <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Sed fringilla mauris sit amet nibh.</p>
+                        </div>
+                        <div class="col-12 col-lg-12 mb-5">
+                        <h4>Advanced Proven Procedures</h4>
+                            <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Sed fringilla mauris sit amet nibh.</p>
+                        </div>
+                        <div class="col-12 col-lg-12 mb-5">
+                        <h4>Advanced Proven Procedures</h4>
+                            <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Sed fringilla mauris sit amet nibh.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-4">
+                
+                <img 
+                width="404" 
+                height="676" 
+                src="https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/section2.jpg" 
+                class="aligncenter attachment-full" 
+                alt="" 
+                loading="lazy" 
+                srcset="https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/section2.jpg 404w, https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/section2-179x300.jpg 179w" sizes="(max-width: 404px) 100vw, 404px">
+
+                </div>
+                <div class="col-4 col-lg-4">
+                    <div class="row d-block">
+                        <div class="col-12 col-lg-12 mb-5">
+                        <h4>Advanced Proven Procedures</h4>
+                            <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Sed fringilla mauris sit amet nibh.</p>
+                        </div>
+                        <div class="col-12 col-lg-12 mb-5">
+                        <h4>Advanced Proven Procedures</h4>
+                            <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Sed fringilla mauris sit amet nibh.</p>
+                        </div>
+                        <div class="col-12 col-lg-12 mb-5"> 
+                            <h4>Advanced Proven Procedures</h4>
+                            <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Sed fringilla mauris sit amet nibh.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Eleventh section -->
+
+        <section class="back-image-last container mb-5 mt-5">
+            <div class="row text-center">
+                <div class="text-light col-12 col-lg-12 mt-5">
+                    <h6>What Our Clients Think
+                    <hr class="bg-light" style="width:25px;height:3px">
+                </h6>
+                <h2 class="text-light">Client Testimonials</h2>
+                
+            </div>
+            </div>
+                
+
+        </section>
+
+
+
+
         <!-- SlideShow -->
         <section class="container-fluid">
+        <div class="row text-center">
+                <div class="text-secondary col-12 col-lg-12 mt-5">
+                    <h6>Our Special Offers
+                    <hr class="bg-secondary" style="width:25px;height:3px">
+                </h6>
+                <h2 class="text-secondary">Comes With Best Price</h2>
+                
+            </div>
+            </div>
             <div id="LastCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
                         <img class="d-block w-100"
-                             src="http://dtaccu.wpengine.com/wp-content/uploads/2018/08/slider1.jpg" alt="First slide">
+                             src="https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/chinese-herbal-offer-7.jpg?id=12886)" alt="First slide">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100"
-                             src="http://dtaccu.wpengine.com/wp-content/uploads/2018/08/slider2.jpg" alt="Second slide">
+                             src="https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/chinese-herbal-offer-4-1.jpg?id=12884" alt="Second slide">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100"
@@ -825,17 +991,19 @@ get_header();
 
         <!-- Penultimate section -->
         <section class="container-fluid mt-5 mb-5 p-5" style="background-color:#E9F3E1;">
-            <div class='col col-lg pt-4'>
-                <h6 class="text-center">Best Offers</h2>
+        <div class="row text-center">
+                <div class="text-secondary col-12 col-lg-12 mt-5 mb-5">
+                    <h6 class="text-dark">Best Offers
+                    <hr class="bg-secondary" style="width:25px;height:3px">
+                </h6>
+                <h2 class="text-secondary">Package & Pricing Table</h2>
+                
             </div>
-            <div class='col col-lg mb-5 '>
-                <h2 class="text-center">Package & Pricing Table</h2>
             </div>
-
             <div class="card-deck">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-title text-center">Silver</h5>
+                        <h3 class="card-title text-center">Silver<hr class="bg-secondary" style="width:25px;"></h3>
                             <div class="text-center">
 
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
@@ -843,20 +1011,46 @@ get_header();
                                      alt="...">
 
                             </div>
-                            <div class="card border-0 p-4 bg-light">
-                                <div class="card-text text-center"><h2>$ 120</h2></div>
+                            <div class="card-text border-0 mt-4 mb-3 p-4" style="width:100%;background-color:#A7B3AB;">
+                                <h1 class="text-center text-light">$120.99</h1>
                             </div>
                             <p class="card-text text-center"><strong>Auriculotherapy</strong><br>Sed consequat, leo eget
                                 bibendum sodales, augue velit cursus nunc. Donec sodales sagittis magna.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn-pen btn text-white">Buy Now</a>
-                            </div>
+                            
                     </div>
+                    <div class="text-center mt-4">
+                                <a href="#" class="btn-pen btn text-white p-2" style="border-radius:25px; width:28%;">Buy Now</a>
+                            </div>
                 </div>
+
+                <div class="card" style="background-color:#A7B3AB;">
+               
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Silver<hr class="bg-secondary" style="width:25px;"></h3>
+                            <div class="text-center">
+
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
+                                     class="card-img-top rounded-circle border border-secondary" style="width:150px;"
+                                     alt="...">
+
+                            </div>
+                            <div class="card-text border-0 mt-4 mb-3 p-4" style="width:100%;background-color:white;">
+                                <h1 class="text-center text-secondary">$120.99</h1>
+                            </div>
+                            <p class="card-text text-center"><strong>Auriculotherapy</strong><br>Sed consequat, leo eget
+                                bibendum sodales, augue velit cursus nunc. Donec sodales sagittis magna.</p>
+                            
+                    </div>
+                    <div class="text-center mt-4">
+                                <a href="#" class="btn-pen btn text-white p-2" style="border-radius:25px; width:28%;">Buy Now</a>
+                            </div>
+                
+                </div>
+
 
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-title text-center">Silver</h5>
+                        <h3 class="card-title text-center">Silver<hr class="bg-secondary" style="width:25px;"></h3>
                             <div class="text-center">
 
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
@@ -864,37 +1058,16 @@ get_header();
                                      alt="...">
 
                             </div>
-                            <div class="card border-0 p-4 bg-light">
-                                <div class="card-text text-center"><h2>$ 120</h2></div>
+                            <div class="card-text border-0 mt-4 mb-3 p-4" style="width:100%;background-color:#A7B3AB;">
+                                <h1 class="text-center text-light">$120.99</h1>
                             </div>
                             <p class="card-text text-center"><strong>Auriculotherapy</strong><br>Sed consequat, leo eget
                                 bibendum sodales, augue velit cursus nunc. Donec sodales sagittis magna.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn-pen btn text-white">Buy Now</a>
-                            </div>
+                            
                     </div>
-                </div>
-
-
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title text-center">Silver</h5>
-                            <div class="text-center">
-
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
-                                     class="card-img-top rounded-circle border border-secondary" style="width:150px;"
-                                     alt="...">
-
+                    <div class="text-center mt-4">
+                                <a href="#" class="btn-pen btn text-white p-2" style="border-radius:25px; width:28%;">Buy Now</a>
                             </div>
-                            <div class="card border-0 p-4 bg-light">
-                                <div class="card-text text-center"><h2>$ 120</h2></div>
-                            </div>
-                            <p class="card-text text-center"><strong>Auriculotherapy</strong><br>Sed consequat, leo eget
-                                bibendum sodales, augue velit cursus nunc. Donec sodales sagittis magna.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn-pen btn text-white">Buy Now</a>
-                            </div>
-                    </div>
                 </div>
             </div>
 
@@ -903,78 +1076,141 @@ get_header();
 
         <!-- Last section -->
         <section class="container-fluid mt-5 mb-5">
-            <div class='col col-lg'>
-                <h6 class="text-center">Meet Our Therapists</h2>
-            </div>
-            <div class='col col-lg mb-5 '>
-                <h2 class="text-center">Our Team</h2>
-            </div>
-
             <div class="row">
+            <div class='col-12 col-lg-12 mt-4'>
+                <h6 class="text-center">Meet Our Therapists
+                <hr class="bg-secondary" style="width:25px;height:3px">
+                </h6>
+            </div>
+            <div class='col-12 col-lg-12 mb-5'>
+                <h2 style="color:#a7b3ab;" class="text-center">Our Team</h2>
+            </div>
+            </div>
+
+            <div class="row ml-5">
+
                 <div class="col-lg-3 col-12 text-center">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card border-0" style="width: 18rem;background-color:#F1F1F1;">
                         <div class="text-center mt-4">
 
                             <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
-                                 class="img-last card-img-top rounded-circle " style="" alt="...">
+                                 class="img-last card-img-top rounded-circle " style="width:500; height:500" alt="...">
 
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Mery Linda Joseph</h5>
+                            <div class="row card-text">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul class="announcement-bar__list">
+                            <li>
+                                <a href='https://www.linkedin.com/'> <i class="bi bi-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/"> <i class="bi bi-twitter"></i></a>
+
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/"> <i class="bi bi-facebook"></i></a>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-12 text-center">
+                <div class="card border-0" style="width: 18rem;background-color:#F1F1F1;">
+                        <div class="text-center mt-4">
+
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
+                                 class="img-last card-img-top rounded-circle " style="width:500; height:500" alt="...">
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mery Linda Joseph</h5>
+                            <div class="row card-text">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul class="announcement-bar__list">
+                            <li>
+                                <a href='https://www.linkedin.com/'> <i class="bi bi-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/"> <i class="bi bi-twitter"></i></a>
+
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/"> <i class="bi bi-facebook"></i></a>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-12 text-center">
-                    <div class="card" style="width: 18rem;">
+                <div class="card border-0" style="width: 18rem;background-color:#F1F1F1;">
                         <div class="text-center mt-4">
 
                             <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
-                                 class="img-last card-img-top rounded-circle border border-secondary"
-                                 style="width:50%; height:50%;" alt="...">
+                                 class="img-last card-img-top rounded-circle " style="width:500; height:500" alt="...">
 
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Mery Linda Joseph</h5>
+                            <div class="row card-text">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul class="announcement-bar__list">
+                            <li>
+                                <a href='https://www.linkedin.com/'> <i class="bi bi-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/"> <i class="bi bi-twitter"></i></a>
+
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/"> <i class="bi bi-facebook"></i></a>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-12 text-center">
-                    <div class="card" style="width: 18rem;">
+                <div class="card border-0" style="width: 18rem;background-color:#F1F1F1;">
                         <div class="text-center mt-4">
 
                             <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
-                                 class="img-last card-img-top rounded-circle border border-secondary"
-                                 style="width:50%; height:50%;" alt="...">
+                                 class="img-last card-img-top rounded-circle " style="width:500; height:500" alt="...">
 
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+                            <h5 class="card-title">Mery Linda Joseph</h5>
+                            <div class="row card-text">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul class="announcement-bar__list">
+                            <li>
+                                <a href='https://www.linkedin.com/'> <i class="bi bi-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/"> <i class="bi bi-twitter"></i></a>
+
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/"> <i class="bi bi-facebook"></i></a>
+
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-12 text-center">
-                    <div class="card" style="width: 18rem;">
-                        <div class="text-center mt-4">
-
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper3.jpg"
-                                 class="img-last card-img-top rounded-circle border border-secondary"
-                                 style="width:50%; height:50%;" alt="...">
-
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>

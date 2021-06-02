@@ -11000,4 +11000,28 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url("https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg");
   height: auto;
 }
+
+.back-image-first {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/parallax-img-2.png");
+  background-attachment: scroll;
+  min-width: 1519px;
+  left: 0px;
+  width: 1518px;
+  background-position: 50% 16px;
+}
+
+.back-image-last {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/parallax-img-6.jpg");
+  background-attachment: scroll;
+  min-width: 1519px;
+  left: 0px;
+  width: 1518px;
+  background-position: 50% -27px;
+}
 /*# sourceMappingURL=main.css.map */
