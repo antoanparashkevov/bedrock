@@ -30,7 +30,7 @@
     <div class="announcement-bar pt-3 pb-3">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="d-flex col-12 col-md-4 justify-content-lg-start  justify-content-center">
                     <ul class="announcement-bar__list">
                         <li>
 
@@ -43,7 +43,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-8  d-flex justify-content-end">
+                <div class="col-12 justify-content-lg-end col-md-8  d-flex justify-content-center">
                     <ul class="announcement-bar__list">
                         <li>
                             <a href='https://www.linkedin.com/'> <i class="bi bi-linkedin"></i></a>
