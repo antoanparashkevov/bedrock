@@ -18,6 +18,8 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 	<?php wp_head(); ?>
 </head>
@@ -97,7 +99,48 @@
         </nav>
 
 
-        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel"
+        <section>
+       <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval=3600>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper5.jpg"
+                 class="d-block img-fluid w-100"
+                 alt="First Slide">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>First Slide</h5>
+    <p>This is a paragraph</p>
+    <div class="btn btn-secondary" style="border-radius:10px;">First</div>
+  </div>
+    </div>
+    <div class="carousel-item">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/wallpaper6.jpg"
+                 class="d-block img-fluid w-100"
+                 alt="Second Slide">
+      <div class="carousel-caption d-none d-md-block">
+    <h5>Second Slide</h5>
+    <p>this is a paragraph</p>
+    <div class="btn btn-secondary" style="border-radius:10px;">Second</div>
+  </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+       </section>
+       
+    </header><!-- #masthead -->
+
+
+
+
+
+    <!-- <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel"
              data-bs-interval="5000">
 
             <div class="carousel-inner">
@@ -125,5 +168,4 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div>
-    </header><!-- #masthead -->
+        </div> -->

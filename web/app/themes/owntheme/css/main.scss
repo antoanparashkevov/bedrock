@@ -7,39 +7,6 @@
 // Add custom code after this
 
 
-$carousel-control-color:             $white;
-$carousel-control-width:             15%;
-$carousel-control-opacity:           .5;
-$carousel-control-hover-opacity:     .9;
-$carousel-control-transition:        opacity .15s ease;
-
-$carousel-indicator-width:           30px;
-$carousel-indicator-height:          3px;
-$carousel-indicator-hit-area-height: 10px;
-$carousel-indicator-spacer:          3px;
-$carousel-indicator-opacity:         .5;
-$carousel-indicator-active-bg:       $white;
-$carousel-indicator-active-opacity:  1;
-$carousel-indicator-transition:      opacity .6s ease;
-
-$carousel-caption-width:             70%;
-$carousel-caption-color:             $white;
-$carousel-caption-padding-y:         1.25rem;
-$carousel-caption-spacer:            1.25rem;
-
-$carousel-control-icon-width:        2rem;
-
-$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
-$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
-
-$carousel-transition-duration:       .6s;
-$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
-
-$carousel-dark-indicator-active-bg:  $black;
-$carousel-dark-caption-color:        $black;
-$carousel-dark-control-icon-filter:  invert(1) grayscale(100);
-
-
 //Include custom variables default overrides here
 $primary: #413D3C;
 $gray: #413D3C;
@@ -66,7 +33,7 @@ $theme-colors: map-merge($theme-colors, $custom-color);
 .announcement-bar{
 font-size:100%;
 // border-bottom:1px solid (--bs-gray);
-  background-color: #413D3C;
+  background-color:  #413D3C;
 // #413D3C;
 // that mean this class : announcement-bar__list
 &__list{
@@ -111,22 +78,8 @@ font-size:100%;
 // }
 }
 
-.menu__bg{
-opacity: inherit;
-background-color: inherit;
-}
+// FOR CAROUSEL 
 
-
-
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
   .carousel-caption {
     bottom: 270px;
   }
@@ -144,7 +97,10 @@ background-color: inherit;
     font-size: 18px;
     line-height: 1.9;
   }
-  
+
+
+
+  // FOR NAVIGATION BAR
   .navbar-light .navbar-brand {
     color: #fff;
     font-size: 25px;
@@ -189,11 +145,14 @@ background-color: inherit;
 
 
   
-
+  // FOR FOOTER
   .footer-style{
     background-color: #A7B3AB;
   }
 
+
+
+  // for rounded image
   .img-last {
     border: 3px solid #413D3C;
     border-radius: 6px;
@@ -202,15 +161,22 @@ background-color: inherit;
     height:50%;
   } 
   
+
+  // for rounded image HOVER
   .img-last:hover {
     box-shadow: 0 0 6px 3px rgba(0, 140, 186, 0.5);
   }
 
+
+
+  // INDIVIDUAL BUTTON
   .btn-pen{
     background-color: #68605E;
     color: white;
   }
 
+
+// BACKGROUND IMAGE WITH BACKGROUND-IMAGE PROPERTY
   .back-image{
     // background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg');
     // height: 100vh;
@@ -226,6 +192,8 @@ background-color: inherit;
     background-position: 50% 16px;
   }
 
+
+  // BACKGROUND IMAGE WITH BACKGROUND-IMAGE PROPERTY
   .back-image2{
     background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg');
     height: auto;
@@ -233,6 +201,8 @@ background-color: inherit;
     //<img width="90" height="55" src="https://1scyiu2n1n5idktsl3ylwkq1-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/flower-decor.png" class="aligncenter attachment-full" alt="flower-decor" loading="lazy">
   }
 
+
+  // BACKGROUND IMAGE WITH BACKGROUND-IMAGE PROPERTY
 .back-image-first{
   background-size: cover;
   background-repeat: no-repeat;
@@ -245,6 +215,8 @@ background-color: inherit;
   background-position: 50% 16px;
 }
 
+
+// BACKGROUND IMAGE WITH BACKGROUND-IMAGE PROPERTY
 .back-image-last{
      background-size: cover;
     background-repeat: no-repeat;
